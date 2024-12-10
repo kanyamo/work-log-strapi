@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "hourly_rates",
+  "info": {
+    "singularName": "hourly-rate",
+    "pluralName": "hourly-rates",
+    "displayName": "HourlyRate"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "task": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::task.task",
+      "inversedBy": "hourly_rates"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
+      "type": "date"
+    },
+    "rate": {
+      "type": "integer"
+    }
+  }
+}

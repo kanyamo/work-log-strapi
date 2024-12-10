@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "work_logs",
+  "info": {
+    "singularName": "work-log",
+    "pluralName": "work-logs",
+    "displayName": "WorkLog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "description": {
+      "type": "blocks"
+    },
+    "start_time": {
+      "type": "datetime",
+      "required": true
+    },
+    "end_time": {
+      "type": "datetime"
+    }
+  }
+}
