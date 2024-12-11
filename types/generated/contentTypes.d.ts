@@ -467,6 +467,7 @@ export interface ApiGlobalGlobal extends Struct.SingleTypeSchema {
 export interface ApiHourlyRateHourlyRate extends Struct.CollectionTypeSchema {
   collectionName: 'hourly_rates';
   info: {
+    description: '';
     displayName: 'HourlyRate';
     pluralName: 'hourly-rates';
     singularName: 'hourly-rate';

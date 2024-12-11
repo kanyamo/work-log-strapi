@@ -4,7 +4,8 @@
   "info": {
     "singularName": "hourly-rate",
     "pluralName": "hourly-rates",
-    "displayName": "HourlyRate"
+    "displayName": "HourlyRate",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
